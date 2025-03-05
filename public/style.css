@@ -1,0 +1,38 @@
+/* style.css */
+body {
+    background-color: #ffe6f2;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+  
+h1, h5 {
+    color: #ff66b2;
+}
+  
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+  
+#chat-window {
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+  
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #ffccf2;
+    border-radius: 10px;
+    max-width: 80%;
+}
+  
+.message.self {
+    background-color: #ffe6f2;
+    align-self: flex-end;
+    text-align: right;
+}
+  
+.progress {
+    height: 20px;
+}
